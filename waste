@@ -1,0 +1,47 @@
+echo "Hello World"
+
+tput blink
+echo "Hello it is not blinking"
+
+tput bold
+echo "Hi Jay"
+
+tput setaf 2
+echo "+++++++++"
+
+tput setaf 3
+echo "+++++++++"
+
+tput setaf 160
+echo "+++++++++"
+
+tput smul
+echo "hi "
+
+tput setab 2
+echo "HI jay"
+############################
+echo "Enter 1st name";
+read name
+echo "hi $name";
+
+echo "Enter 2st name";
+read n
+echo "hi $name $n";
+
+
+############
+echo 'Enter number';
+read num;
+
+
+
+
+if [ $((num%2)) -eq 0 ]
+then
+  echo "you entered even no."
+else
+  echo "you entered odd no."
+fi
+
+
