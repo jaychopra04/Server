@@ -6,7 +6,7 @@ echo "Hello it is not blinking"
 tput bold
 echo "Hi Jay"
 
-tput setaf 2
+tput setaf 22
 echo "+++++++++"
 
 tput setaf 3
